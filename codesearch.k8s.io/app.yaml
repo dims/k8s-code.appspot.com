@@ -1,0 +1,15 @@
+runtime: custom
+api_version: '1.0'
+env: flexible
+threadsafe: true
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 3
+  cpu_utilization:
+    target_utilization: 0.5
+resources:
+  cpu: 2
+  memory_gb: 3
+  disk_size_gb: 30
+health_check:
+  enable_health_check: false
