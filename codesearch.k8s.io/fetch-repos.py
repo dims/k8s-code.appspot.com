@@ -1,10 +1,13 @@
 import requests
 import json
 
-url = 'https://api.github.com/orgs/kubernetes/repos?per_page=200'
-
-resp = requests.get(url=url)
-data = resp.json()
+repos = [
+    'kubernetes',
+    'kubernetes-client',
+    'kubernetes-csi',
+    'kubernetes-incubator',
+    'kubernetes-sigs',
+]
 
 config = {
     "max-concurrent-indexers": 2,
@@ -12,11 +15,15 @@ config = {
     "repos": {}
 }
 
-for repo in data:
-    name = repo['full_name'].split('/')[1]
-    config["repos"][name] = {
-        "url": "https://github.com/kubernetes/%s.git" % name,
-        "ms-between-poll": 360000
-    }
+for repo in repos:
+    resp = requests.get(url= "https://api.github.com/orgs/" + repo + "/repos?per_page=200")
+    data = resp.json()
 
-print(json.dumps(config, indent=4))
+    for item in data:
+        name = item['full_name'].split('/')[1]
+        config["repos"][repo + "/" + name] = {
+            "url": "https://github.com/%s/%s.git" % (repo, name),
+            "ms-between-poll": 360000
+        }
+
+print(json.dumps(config, indent=4, sort_keys=True))
