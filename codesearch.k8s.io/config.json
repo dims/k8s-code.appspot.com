@@ -30,6 +30,10 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-client/javascript.git"
         }, 
+        "kubernetes-client/perl": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-client/perl.git"
+        }, 
         "kubernetes-client/python": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-client/python.git"
@@ -42,9 +46,13 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-client/ruby.git"
         }, 
-        "kubernetes-csi/csi-driver-cinder": {
+        "kubernetes-csi/cluster-driver-registrar": {
             "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-csi/csi-driver-cinder.git"
+            "url": "https://github.com/kubernetes-csi/cluster-driver-registrar.git"
+        }, 
+        "kubernetes-csi/csi-driver-fibre-channel": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-csi/csi-driver-fibre-channel.git"
         }, 
         "kubernetes-csi/csi-driver-flex": {
             "ms-between-poll": 360000, 
@@ -54,6 +62,10 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/csi-driver-host-path.git"
         }, 
+        "kubernetes-csi/csi-driver-image-populator": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-csi/csi-driver-image-populator.git"
+        }, 
         "kubernetes-csi/csi-driver-iscsi": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/csi-driver-iscsi.git"
@@ -62,10 +74,6 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/csi-driver-nfs.git"
         }, 
-        "kubernetes-csi/csi-lib-common": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-csi/csi-lib-common.git"
-        }, 
         "kubernetes-csi/csi-lib-fc": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/csi-lib-fc.git"
@@ -73,6 +81,14 @@
         "kubernetes-csi/csi-lib-iscsi": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/csi-lib-iscsi.git"
+        }, 
+        "kubernetes-csi/csi-lib-utils": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-csi/csi-lib-utils.git"
+        }, 
+        "kubernetes-csi/csi-release-tools": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-csi/csi-release-tools.git"
         }, 
         "kubernetes-csi/csi-test": {
             "ms-between-poll": 360000, 
@@ -98,13 +114,13 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/external-provisioner.git"
         }, 
+        "kubernetes-csi/external-resizer": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-csi/external-resizer.git"
+        }, 
         "kubernetes-csi/external-snapshotter": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/external-snapshotter.git"
-        }, 
-        "kubernetes-csi/kubernetes-csi-migration-library": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-csi/kubernetes-csi-migration-library.git"
         }, 
         "kubernetes-csi/kubernetes-csi.github.io": {
             "ms-between-poll": 360000, 
@@ -114,9 +130,13 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-csi/livenessprobe.git"
         }, 
-        "kubernetes-incubator/apiserver-builder": {
+        "kubernetes-csi/node-driver-registrar": {
             "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-incubator/apiserver-builder.git"
+            "url": "https://github.com/kubernetes-csi/node-driver-registrar.git"
+        }, 
+        "kubernetes-incubator/apiserver-builder-alpha": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-incubator/apiserver-builder-alpha.git"
         }, 
         "kubernetes-incubator/bootkube": {
             "ms-between-poll": 360000, 
@@ -158,21 +178,9 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-incubator/kube-aws.git"
         }, 
-        "kubernetes-incubator/kubespray": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-incubator/kubespray.git"
-        }, 
         "kubernetes-incubator/metrics-server": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-incubator/metrics-server.git"
-        }, 
-        "kubernetes-incubator/nfs-provisioner": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-incubator/nfs-provisioner.git"
-        }, 
-        "kubernetes-incubator/node-feature-discovery": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-incubator/node-feature-discovery.git"
         }, 
         "kubernetes-incubator/reference-docs": {
             "ms-between-poll": 360000, 
@@ -182,21 +190,21 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-incubator/rktlet.git"
         }, 
-        "kubernetes-incubator/service-catalog": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-incubator/service-catalog.git"
-        }, 
         "kubernetes-incubator/spartakus": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-incubator/spartakus.git"
         }, 
+        "kubernetes-sigs/addon-operators": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/addon-operators.git"
+        }, 
+        "kubernetes-sigs/apiserver-network-proxy": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/apiserver-network-proxy.git"
+        }, 
         "kubernetes-sigs/application": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/application.git"
-        }, 
-        "kubernetes-sigs/architecture-tracking": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-sigs/architecture-tracking.git"
         }, 
         "kubernetes-sigs/aws-alb-ingress-controller": {
             "ms-between-poll": 360000, 
@@ -206,13 +214,37 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/aws-ebs-csi-driver.git"
         }, 
+        "kubernetes-sigs/aws-efs-csi-driver": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/aws-efs-csi-driver.git"
+        }, 
         "kubernetes-sigs/aws-encryption-provider": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/aws-encryption-provider.git"
         }, 
+        "kubernetes-sigs/aws-fsx-csi-driver": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/aws-fsx-csi-driver.git"
+        }, 
         "kubernetes-sigs/aws-iam-authenticator": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator.git"
+        }, 
+        "kubernetes-sigs/azuredisk-csi-driver": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/azuredisk-csi-driver.git"
+        }, 
+        "kubernetes-sigs/azurefile-csi-driver": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/azurefile-csi-driver.git"
+        }, 
+        "kubernetes-sigs/cli-experimental": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/cli-experimental.git"
+        }, 
+        "kubernetes-sigs/cli-utils": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/cli-utils.git"
         }, 
         "kubernetes-sigs/cluster-api": {
             "ms-between-poll": 360000, 
@@ -222,13 +254,25 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/cluster-api-provider-aws.git"
         }, 
+        "kubernetes-sigs/cluster-api-provider-azure": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/cluster-api-provider-azure.git"
+        }, 
         "kubernetes-sigs/cluster-api-provider-digitalocean": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/cluster-api-provider-digitalocean.git"
         }, 
+        "kubernetes-sigs/cluster-api-provider-docker": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/cluster-api-provider-docker.git"
+        }, 
         "kubernetes-sigs/cluster-api-provider-gcp": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/cluster-api-provider-gcp.git"
+        }, 
+        "kubernetes-sigs/cluster-api-provider-ibmcloud": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/cluster-api-provider-ibmcloud.git"
         }, 
         "kubernetes-sigs/cluster-api-provider-openstack": {
             "ms-between-poll": 360000, 
@@ -254,17 +298,17 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/controller-tools.git"
         }, 
-        "kubernetes-sigs/cri-o": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-sigs/cri-o.git"
-        }, 
         "kubernetes-sigs/cri-tools": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/cri-tools.git"
         }, 
-        "kubernetes-sigs/federation-v2": {
+        "kubernetes-sigs/dashboard-metrics-scraper": {
             "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes-sigs/federation-v2.git"
+            "url": "https://github.com/kubernetes-sigs/dashboard-metrics-scraper.git"
+        }, 
+        "kubernetes-sigs/etcdadm": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/etcdadm.git"
         }, 
         "kubernetes-sigs/gcp-compute-persistent-disk-csi-driver": {
             "ms-between-poll": 360000, 
@@ -274,9 +318,21 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/gcp-filestore-csi-driver.git"
         }, 
+        "kubernetes-sigs/k8s-container-image-promoter": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/k8s-container-image-promoter.git"
+        }, 
         "kubernetes-sigs/kind": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/kind.git"
+        }, 
+        "kubernetes-sigs/krew": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/krew.git"
+        }, 
+        "kubernetes-sigs/krew-index": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/krew-index.git"
         }, 
         "kubernetes-sigs/kube-batch": {
             "ms-between-poll": 360000, 
@@ -294,17 +350,69 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/kubebuilder.git"
         }, 
+        "kubernetes-sigs/kubebuilder-declarative-pattern": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/kubebuilder-declarative-pattern.git"
+        }, 
+        "kubernetes-sigs/kubefed": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/kubefed.git"
+        }, 
+        "kubernetes-sigs/kubespray": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/kubespray.git"
+        }, 
         "kubernetes-sigs/kustomize": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/kustomize.git"
+        }, 
+        "kubernetes-sigs/legacyflag": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/legacyflag.git"
+        }, 
+        "kubernetes-sigs/minibroker": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/minibroker.git"
+        }, 
+        "kubernetes-sigs/multi-tenancy": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/multi-tenancy.git"
+        }, 
+        "kubernetes-sigs/mutating-trace-admission-controller": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/mutating-trace-admission-controller.git"
+        }, 
+        "kubernetes-sigs/node-feature-discovery": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/node-feature-discovery.git"
         }, 
         "kubernetes-sigs/poseidon": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/poseidon.git"
         }, 
+        "kubernetes-sigs/release-notes": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/release-notes.git"
+        }, 
+        "kubernetes-sigs/service-catalog": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/service-catalog.git"
+        }, 
         "kubernetes-sigs/sig-storage-lib-external-provisioner": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/sig-storage-lib-external-provisioner.git"
+        }, 
+        "kubernetes-sigs/sig-storage-local-static-provisioner": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner.git"
+        }, 
+        "kubernetes-sigs/sig-windows-tools": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/sig-windows-tools.git"
+        }, 
+        "kubernetes-sigs/slack-infra": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/slack-infra.git"
         }, 
         "kubernetes-sigs/structured-merge-diff": {
             "ms-between-poll": 360000, 
@@ -313,6 +421,18 @@
         "kubernetes-sigs/testing_frameworks": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes-sigs/testing_frameworks.git"
+        }, 
+        "kubernetes-sigs/vsphere-csi-driver": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/vsphere-csi-driver.git"
+        }, 
+        "kubernetes-sigs/windows-gmsa": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/windows-gmsa.git"
+        }, 
+        "kubernetes-sigs/windows-testing": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes-sigs/windows-testing.git"
         }, 
         "kubernetes-sigs/yaml": {
             "ms-between-poll": 360000, 
@@ -370,6 +490,10 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/cloud-provider-openstack.git"
         }, 
+        "kubernetes/cloud-provider-sample": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes/cloud-provider-sample.git"
+        }, 
         "kubernetes/cloud-provider-vsphere": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/cloud-provider-vsphere.git"
@@ -390,13 +514,21 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/community.git"
         }, 
-        "kubernetes/contrib": {
+        "kubernetes/component-base": {
             "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes/contrib.git"
+            "url": "https://github.com/kubernetes/component-base.git"
+        }, 
+        "kubernetes/cri-api": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes/cri-api.git"
         }, 
         "kubernetes/csi-api": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/csi-api.git"
+        }, 
+        "kubernetes/csi-translation-lib": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes/csi-translation-lib.git"
         }, 
         "kubernetes/dashboard": {
             "ms-between-poll": 360000, 
@@ -414,13 +546,13 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/examples.git"
         }, 
-        "kubernetes/federation": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes/federation.git"
-        }, 
         "kubernetes/frakti": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/frakti.git"
+        }, 
+        "kubernetes/funding": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes/funding.git"
         }, 
         "kubernetes/gengo": {
             "ms-between-poll": 360000, 
@@ -429,10 +561,6 @@
         "kubernetes/git-sync": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/git-sync.git"
-        }, 
-        "kubernetes/heapster": {
-            "ms-between-poll": 360000, 
-            "url": "https://github.com/kubernetes/heapster.git"
         }, 
         "kubernetes/ingress-gce": {
             "ms-between-poll": 360000, 
@@ -510,6 +638,10 @@
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/kubernetes-template-project.git"
         }, 
+        "kubernetes/legacy-cloud-providers": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes/legacy-cloud-providers.git"
+        }, 
         "kubernetes/metrics": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/metrics.git"
@@ -517,6 +649,10 @@
         "kubernetes/minikube": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/minikube.git"
+        }, 
+        "kubernetes/node-api": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes/node-api.git"
         }, 
         "kubernetes/node-problem-detector": {
             "ms-between-poll": 360000, 
@@ -553,6 +689,10 @@
         "kubernetes/sample-controller": {
             "ms-between-poll": 360000, 
             "url": "https://github.com/kubernetes/sample-controller.git"
+        }, 
+        "kubernetes/security": {
+            "ms-between-poll": 360000, 
+            "url": "https://github.com/kubernetes/security.git"
         }, 
         "kubernetes/sig-release": {
             "ms-between-poll": 360000, 
