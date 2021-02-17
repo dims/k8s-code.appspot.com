@@ -10,8 +10,13 @@ repos = [
 ]
 
 config = {
-    "max-concurrent-indexers": 2,
+    "max-concurrent-indexers": 10,
     "dbpath": "data",
+    "vcs-config": {
+        "git": {
+            "detect-ref" : True,
+         }
+    },
     "repos": {}
 }
 
