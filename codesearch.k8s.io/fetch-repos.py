@@ -8,6 +8,7 @@ repos = [
     'kubernetes-csi',
     'kubernetes-incubator',
     'kubernetes-sigs',
+    'etcd-io',
 ]
 
 config = {
