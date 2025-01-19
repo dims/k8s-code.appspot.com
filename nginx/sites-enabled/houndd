@@ -1,0 +1,62 @@
+server {
+
+server_name cs.k8s.io;
+access_log /var/log/nginx/localhost.log;
+
+location / {
+    proxy_pass http://localhost:8080;
+    proxy_read_timeout 300;
+ }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/cs.k8s.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/cs.k8s.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+}
+server {
+    if ($host = cs.k8s.io) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+listen 0.0.0.0:80;
+
+server_name cs.k8s.io;
+    return 404; # managed by Certbot
+
+
+}
+server {
+
+server_name cs.kubernetes.io;
+access_log /var/log/nginx/localhost.log;
+
+location / {
+    proxy_pass http://localhost:8080;
+    proxy_read_timeout 300;
+ }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/cs.k8s.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/cs.k8s.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+
+}
+server {
+    if ($host = cs.kubernetes.io) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+listen 0.0.0.0:80;
+
+server_name cs.kubernetes.io;
+    return 404; # managed by Certbot
+
+
+}
